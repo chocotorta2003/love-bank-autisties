@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Bank</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="app-container">
+        <h1>💖 Love Bank 💖</h1>
+        <p>Balance: <span id="balance">0</span> Love Points</p>
+        
+        <button onclick="earnPoints(500)">We Hugged (+500)</button>
+        <button onclick="earnPoints(2000)">I Made You Dinner (+2000)</button>
+        <button onclick="sendPoints()">Send Love Points</button>
+        <button onclick="redeemPoints()">Redeem Benefits</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
