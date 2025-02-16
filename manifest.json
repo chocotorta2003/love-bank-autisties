@@ -1,0 +1,15 @@
+{
+    "name": "Love Bank",
+    "short_name": "LoveBank",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ffe4ec",
+    "theme_color": "#ff66a3",
+    "icons": [
+        {
+            "src": "icon.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}
